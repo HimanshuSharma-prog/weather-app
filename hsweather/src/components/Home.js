@@ -7,7 +7,7 @@ const Home=()=>{
 
     const [currentWeather,setCurrentWeather]=useState(null)
 
-    const apiKey='86fb433eb7d03053c2f5aa098df855a7'
+    const apiKey='*******************' //enter your openweather api
     const apiUrl=`https://api.openweathermap.org/data/2.5/weather?units=metric`
     
     const fetchWeather=async (cityname)=>{
