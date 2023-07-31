@@ -6,7 +6,7 @@ const Forecast = () => {
 
     const [currentForecast,setCurrentForecast]=useState(null)
 
-    const apiKey='960d69f5c94b7191c95d5dbeef8fe223'
+    const apiKey='*******************' //enter your openweather api
     const apiUrl='https://api.openweathermap.org/data/2.5/forecast?units=metric'
 
 
